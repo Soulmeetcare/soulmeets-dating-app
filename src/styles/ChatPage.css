@@ -1,0 +1,16 @@
+.chat-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+}
+
+.chat-input {
+    border-top: 1px solid #ddd;
+    padding: 10px;
+}
